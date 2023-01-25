@@ -1,0 +1,17 @@
+###
+GET http://localhost:8001/
+
+###
+GET http://localhost:8001/products
+
+
+###
+GET http://localhost:8001/product?id=2
+
+###
+POST http://localhost:8001/product
+Content-Type: application/json
+
+{
+    "productName": "Airpod"
+}
